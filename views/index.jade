@@ -1,0 +1,55 @@
+html
+  head
+    link(href='/stylesheets/thecss.css', rel='stylesheet', type='text/css')
+    |         
+    link(rel='icon', href='/images/logo.png')
+    |         
+    link(href='/stylesheets/bootstrap.min.css', rel='stylesheet')
+    |         
+    title Palette Swap
+  |     
+  script(src='/javascripts/myjs.js')
+  |     
+  body
+    .container-fluid
+      .row
+        .col-xs-12
+          .header_box
+            .header_small_box
+              img.myLogo(src='/images/banner.png' onclick='tag()')
+          |         
+          .col-xs-12.big_box
+            #first_box
+              img#One.lock.change_hover(src='/images/unlock.png', alt='lock', onclick='changeImage_1(this)')
+              |                 
+              form#first_form(onsubmit='return false;')
+                input#first_caption.change_hover.input_box(name='first_input', onclick='pointer(this)')
+            |             
+            #second_box.caption
+              img#Two.lock.change_hover(src='/images/unlock.png', alt='lock', onclick='changeImage_2(this)')
+              |                 
+              form#second_form(onsubmit='return false;')
+                input#second_caption.change_hover.input_box(name='second_input', onclick='pointer(this)')
+            |             
+            #third_box.caption
+              img#Three.lock.change_hover(src='/images/unlock.png', alt='lock', onclick='changeImage_3(this);')
+              |                 
+              form#third_form(onsubmit='return false;')
+                input#third_caption.change_hover.input_box(name='third_input', onclick='pointer(this)')
+            |             
+            #fourth_box.caption
+              img#Four.lock.change_hover(src='/images/unlock.png', alt='lock', onclick='changeImage_4(this);')
+              |                 
+              form#fourth_form(onsubmit='return false;')
+                input#fourth_caption.change_hover.input_box(name='fourth_input', onclick='pointer(this)')
+            |             
+            #fifth_box.caption
+              img#Five.lock.change_hover(src='/images/unlock.png', alt='lock', onclick='changeImage_5(this);')
+              |                 
+              form#fifth_form(onsubmit='return false;')
+                input#fifth_caption.change_hover.input_box(name='fifth_input', onclick='pointer(this)')
+  |      
+  script(src='public/javascripts/jquery-1.9.1.js')
+  // downloaded jquery min for faster loading bootstrap needs jquery to run
+  script(src='public/javascripts/bootstrap.min.js')
+  // bootstrap js file

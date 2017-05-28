@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link href="public/stylesheets/thecss.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="public/images/logo.png">
+        <link href="public/stylesheets/bootstrap.min.css" rel="stylesheet">
+        <title>Palette Swap</title>
+    </head>
+    <script src="public/javascripts/myjs.js">
+    </script>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+        <div class="col-xs-12">
+               <div class="header_box">
+                 <div class="header_small_box">
+                    <img class="myLogo" src="public/images/banner.png">  
+                 </div>
+               </div>
+        <div class="col-xs-12 big_box">
+            <div id="first_box">
+                <img id="One" src="public/images/unlock.png" alt="lock" class="lock change_hover"  onclick="changeImage_1(this)">
+                <form id="first_form" onsubmit="return false;">
+                <input id="first_caption" name="first_input" class="change_hover input_box" onclick="pointer(this)"/>
+                </form>
+            </div>
+            <div id="second_box" class="caption">
+                 <img id="Two" src="public/images/unlock.png" alt="lock" class="lock change_hover"  onclick="changeImage_2(this)">
+                <form id="second_form" onsubmit="return false;">
+                <input id="second_caption" name="second_input" class="change_hover input_box" onclick="pointer(this)"/>
+                </form>
+            </div>
+            <div id="third_box" class="caption">
+                 <img id="Three" src="public/images/unlock.png" alt="lock" class="lock change_hover"  onclick="changeImage_3(this);">
+                <form id="third_form" onsubmit="return false;">
+                <input id="third_caption" name="third_input" class="change_hover input_box" onclick="pointer(this)"/>
+                </form>
+            </div>
+            <div id="fourth_box" class="caption">
+                 <img id="Four" src="public/images/unlock.png" alt="lock" class="lock change_hover"  onclick="changeImage_4(this);">
+                <form id="fourth_form" onsubmit="return false;">
+                <input id="fourth_caption" name="fourth_input" class="change_hover input_box" onclick="pointer(this)"/> 
+                </form>
+            </div>
+            <div id="fifth_box" class="caption">
+                 <img id="Five" src="public/images/unlock.png" alt="lock" class="lock change_hover"  onclick="changeImage_5(this);">
+                <form id="fifth_form" onsubmit="return false;">
+                <input id="fifth_caption" name="fifth_input" class="change_hover input_box" onclick="pointer(this)">
+                </form>
+            </div>
+        </div>  
+                </div>
+            </div>
+        </div>
+    </body>
+     <script src="public/javascripts/jquery-1.9.1.js"></script>  <!-- downloaded jquery min for faster loading bootstrap needs jquery to run-->
+     <script src="public/javascripts/bootstrap.min.js"></script>   <!-- bootstrap js file-->
+</html>

@@ -1,0 +1,90 @@
+body{
+   overflow:hidden;
+}
+#instruction{
+    font-size: 45px;
+    font-family: 'Caslon';
+    font-style: Cursive;
+}
+.caption{
+    font-size: 45px;
+    text-align: center;
+    line-height: 500px; 
+}
+.lock{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+}
+.big_box{
+    text-align: center;
+}
+#first_box{
+   width:260px;
+   height:550px;
+   background-repeat: no-repeat;
+   float:left;
+   /*border: 3px solid; */
+}
+#second_box{
+   width:260px;
+   height:550px;
+   float:left;
+   background-repeat: no-repeat;
+ /*  border: 3px solid; */
+}
+#third_box{
+   width:260px;
+   height:550px;
+   background-repeat: no-repeat;
+   float:left;
+ /*  border: 3px solid; */
+}
+#fourth_box{
+   width:260px;
+   height:550px;
+   float:left;
+   background-repeat: no-repeat;
+ /*  border: 3px solid; */
+}
+#fifth_box{
+   width:260px;
+   height:550px;
+   float:left;
+   background-repeat: no-repeat;
+ /*  border: 3px solid; */
+}
+.change_hover{
+    transition: all .2s ease-in-out;
+}
+.change_hover:hover{
+   transform: scale(1.1);
+}
+.myLogo{
+   
+    float: left;
+}
+.LogoHeader{
+    float: right;
+    font-size: 25px;
+    font-family: "Comfortaa";
+    font-style: italic;
+}
+.header_box{
+   margin:1 auto;
+   height:100px;
+   width:1300px;
+   padding: 0; 
+}
+.header_small_box{
+   display: inline-block;
+   float:left
+}
+.input_box{
+text-align: center;
+width:200px;
+height:60px;
+margin-top:220px;
+font-size: 45px;
+}
